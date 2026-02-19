@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bik2p4v2uvr4j"]
+
+[ext_resource type="Script" uid="uid://cdswank45tb" path="res://Scripts/game_controller.gd" id="1_kx2cw"]
+[ext_resource type="PackedScene" uid="uid://dowtipguf8kdi" path="res://Scenes/game_board.tscn" id="2_goscw"]
+
+[node name="GameControler" type="Node2D"]
+script = ExtResource("1_kx2cw")
+
+[node name="GameBoard" parent="." instance=ExtResource("2_goscw")]
+position = Vector2(0, 32)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, 360)
