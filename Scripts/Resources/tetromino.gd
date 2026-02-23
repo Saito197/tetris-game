@@ -1,7 +1,8 @@
-extends Resource
-class_name Tetromino
 
-@export var piece_atlas: GameController.tetrominoes
+class_name Tetromino
+extends Resource
+
+@export var piece_atlas: Enums.tetrominoes
 
 @export var rot0: Array[Vector2i]
 @export var rot90: Array[Vector2i]

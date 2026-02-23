@@ -39,5 +39,5 @@ func piece_move(dir: Enums.Direction) -> void:
 
 func piece_rotate(dir: Enums.Direction) -> void: 
 	rot += dir
-	rot = fposmod(rot, 4) 
+	rot = posmod(rot, 4) 
 	return
