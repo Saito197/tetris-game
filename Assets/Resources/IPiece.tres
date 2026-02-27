@@ -1,6 +1,7 @@
-[gd_resource type="Resource" script_class="Tetromino" load_steps=2 format=3 uid="uid://usbgehknrr4b"]
+[gd_resource type="Resource" script_class="Tetromino" format=3 uid="uid://usbgehknrr4b"]
 
 [ext_resource type="Script" uid="uid://ddd4d43tpd404" path="res://Scripts/Resources/tetromino.gd" id="1_exg32"]
+[ext_resource type="Script" uid="uid://bc8g51anl8y4c" path="res://Scripts/Resources/piece_offset.gd" id="1_qfetb"]
 
 [resource]
 script = ExtResource("1_exg32")

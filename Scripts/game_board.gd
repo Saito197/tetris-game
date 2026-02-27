@@ -20,6 +20,10 @@ func _init() -> void:
 		grid[x] = arr
 	return
 
+func _ready() -> void:
+	for p in default_pieces:
+		p.calculate_piece_movement_offsets()
+	
 func _process(delta: float) -> void:
 	for x in range(GRID_WIDTH):
 		for y in range(GRID_HEIGHT):
